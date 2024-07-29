@@ -9,3 +9,45 @@ html{
     
       
 }
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.hero-wrapper{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  background-color: azure;
+}
+.hero-content{
+  padding: 24px;
+  background-color: brown;
+}
+.hero-title{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+  margin-bottom: 24px;
+  color: var(--tipo-principal);
+  background-color: blueviolet;
+}
+.hero-paragraph{
+    font-size: 18px;
+    line-height: 24px;
+
+  background-color: chartreuse;
+}
+.hero-button{
+  width: fit-content;
+  background-color: cadetblue;
+}
+.hero-profile{
+
+  background-color: rgb(21, 21, 21);
+}
+.hero-image{
+
+  background-color: cornsilk;
+}
