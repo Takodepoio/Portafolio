@@ -12,18 +12,25 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
+      /* color */
+      --crimson: #BE0000;
+      --crimsonHL:#FF0000;
+      --crimson-shadow:#8A0000;
+      --Crimson-Dark:#1A0000;
+      --Werito:#FFA3A3;    
+      --negro: #000000;
+      --Blanco:#F2F2F2;
   /* Tipografía */
   --tipo-principal: "Poppins", sans-serif;
   --tipo-secundaria: Verdana;
 }
 
 /* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --negro: #ececec;
   }
-}
+} */
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 /* Opcional */
@@ -147,6 +154,7 @@ body {
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
+        background-color: var(--Blanco);
   /* opcional */
   line-height: 1.4em;
   /* opcional */

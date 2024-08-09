@@ -1,53 +1,111 @@
-body {
-    background-color: rgb(26, 26, 26);
+
+/* header */
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--Werito);
 }
-html{
-    
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    
-      
+.hero-wrapper{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
 }
+
+
+.header-brand{
+
+      width: 200px;
+
+}
+
+.header-nav{
+  display: flex;
+  gap: 24px;
+}
+.header-nav-item{
+    color: var(--negro);
+    padding: 12px 8px;
+}
+.header-nav-item:hover {
+    background-color: var(--crimson);
+    border-radius: 12px;
+    color: var(--blanco);
+}
+
+.header-nav-button{
+    color: var(--blanco);
+    font-weight: 900;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: var(--crimson) ;
+}
+
+.header-nav-button:hover {
+    background-color: var(--crimson-shadow);
+}
+
+/* hero */
 .hero{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: aqua;
 }
 .hero-wrapper{
     max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-  background-color: azure;
 }
 .hero-content{
   padding: 24px;
-  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .hero-title{
   font-size: 64px;
   font-weight: 900;
   line-height: 64px;
+  color: var(--crimson);
   margin-bottom: 24px;
-  color: var(--tipo-principal);
-  background-color: blueviolet;
 }
 .hero-paragraph{
-    font-size: 18px;
-    line-height: 24px;
-
-  background-color: chartreuse;
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--negro);
+    margin-bottom: 24px;
+    hyphens: none;
 }
 .hero-button{
+  font-size: 28px;
   width: fit-content;
-  background-color: cadetblue;
+  color: var(--blanco);
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 12px;
+  color: var(--crimson);
+  
 }
-.hero-profile{
 
-  background-color: rgb(21, 21, 21);
+.hero-button:hover{
+      background-color: var(--crimson-shadow);
+      color: var(--blanco);
+}
+
+
+.hero-profile{
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+
 }
 .hero-image{
+  width: 90%;
+  background-color: var(--crimson);
+  border-radius: 50%;
 
-  background-color: cornsilk;
+  
 }
